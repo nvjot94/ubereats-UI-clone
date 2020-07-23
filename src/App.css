@@ -5,7 +5,10 @@
   
 }
 
-
+body{
+    width: 100vw;
+    height: 100vw;
+}
 .container{
     display: grid;
     grid-template-columns:80px 1fr 80px;
@@ -13,5 +16,6 @@
     grid-template-rows: 80px 672px repeat(2,1fr) 300px ;
     grid-template-areas: 
     ". navbar ."
-    "f-header f-header f-header";
+    "f-header f-header f-header"
+    ". restaurants .";
 }

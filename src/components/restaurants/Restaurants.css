@@ -1,0 +1,13 @@
+.restaurants{
+    grid-area:restaurants;
+   
+}
+.horizontal-div{
+    display: flex;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+   max-width: 100%;
+}
+.restaurants h2{
+    margin:30px 0;
+}

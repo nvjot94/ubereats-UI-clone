@@ -1,21 +1,23 @@
 
 .restaurant-item{
-    flex: 0 0 auto;
-    margin-right: 25px;
+    max-width:30%;
+    margin: 0 25px;
+    padding:25px 0;
+    color: white;
 }
 .restaurant-item h3{
     margin-bottom: 10px;
 }
 .restaurant-item img{
     width: 100%;
-    height: 300px;
+    height: 200px;
     margin: 0 0 15px 0;
 }
 .restaurant-item ul{
     display: flex;
     width: 200%;
 }
-.restaurant-item ul li:first-of-type{
+.restaurant-item ul li{
     list-style: none;
 }
 .restaurant-item ul li{
@@ -30,6 +32,7 @@
 .rating{
      background-color: lightgray;
      padding: 8px;
+     color:black;
      border-radius: 50%;
     
 }

@@ -17,5 +17,6 @@ body{
     grid-template-areas: 
     ". navbar ."
     "f-header f-header f-header"
-    ". restaurants .";
+    "restaurants restaurants restaurants"
+    "pizzas pizzas pizzas";
 }

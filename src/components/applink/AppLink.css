@@ -1,0 +1,32 @@
+.app-links{
+    grid-area: applink;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px ;
+    
+}
+.app-links img{
+    width:70px;
+    height: 70px;
+    margin-right: 10px;
+}
+.app-links p{
+    margin-bottom: 20px;
+}
+.app-links a {
+    text-decoration: none;
+    margin: 10px;
+     color: #000;
+     cursor: pointer;
+     font-weight: 600;
+     padding: 12px 16px;
+     border-radius: 50em;
+     background-color: #EEEEEE;
+ }
+
+ .line{
+     margin-top: 10px;
+     color:lightgrey;
+ }
+ 
+ 

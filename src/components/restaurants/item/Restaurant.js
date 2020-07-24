@@ -12,7 +12,7 @@ const Restaurant = ({data}) => {
                 <div>
                 <h3>{name}</h3>
                 <ul>
-              {features.map(item=><li>{item}</li>)}
+              {features.map((item)=><li key={`${item}-Math.random().toFixed(2)*100`}>{item}</li>)}
                  </ul>
                 </div>
            
@@ -23,7 +23,7 @@ const Restaurant = ({data}) => {
             <hr></hr>
             <div>
             <ul>
-             {varities.map(item=><li>{item}</li>)}
+             {varities.map(item=><li key={`${item}-Math.random().toFixed(2)*100`}>{item}</li>)}
             </ul>
             </div>
             

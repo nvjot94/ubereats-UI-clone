@@ -1,12 +1,9 @@
 .restaurants{
-    grid-area:restaurants;
-   
+    margin: 0 80px;
 }
 .horizontal-div{
     display: flex;
-    overflow-x: auto;
-    flex-wrap: nowrap;
-   max-width: 100%;
+    justify-content: space-between;
 }
 .restaurants h2{
     margin:30px 0;

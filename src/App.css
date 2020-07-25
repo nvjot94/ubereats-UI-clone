@@ -24,3 +24,17 @@ body{
     ". city ."
     "footer footer footer";
 }
+
+@media only screen and (max-width: 400px) {
+    .container{
+        grid-template-columns:10px 1fr 10px;
+        grid-template-areas: 
+        "navbar navbar navbar"
+        "f-header f-header f-header"
+        "restaurants restaurants restaurants"
+        "pizzas pizzas pizzas"
+        ". business ."
+        ". city ."
+        "footer footer footer";
+    }
+  }

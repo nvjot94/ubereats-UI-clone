@@ -1,6 +1,13 @@
 .restaurants{
     margin: 0 80px;
 }
+.hs  {
+       display: flex;
+       justify-content: space-between;
+       width: 100%;
+       overflow-x: scroll;
+      }
+
 .horizontal-div{
     display: flex;
     justify-content: space-between;
@@ -14,3 +21,14 @@
     margin-top: 30px;
     background-color:gray;
 }
+
+
+@media only screen and (max-width: 800px) {
+    .restaurants{
+        margin: 0;
+    }
+    .horizontal-div{
+        display: flex;
+        justify-content: space-between;
+    }
+  }

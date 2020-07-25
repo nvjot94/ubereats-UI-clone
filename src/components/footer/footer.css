@@ -3,6 +3,7 @@ footer{
     padding: 20px 80px ;
     background-color: black;
     color:white;
+    font-size: 0.8rem;
 }
 .footer{
     display: flex;
@@ -44,8 +45,47 @@ footer{
     margin-right: 5px;
 }
 .last-div .terms{
-    width: 40%;
+    width: 70%;
 }
 .last-div ul li{
-    margin-right: 2%;
+    margin-right: 1%;
 }
+
+
+@media only screen and (max-width: 800px) {
+    footer{
+        padding: 5% ;
+        background-color: black;
+        color:white;
+        font-size: 1em;
+    }
+    .footer{
+        display: block;
+        margin-top:3%;
+    }
+    .logo-div{
+        width:100%;
+    }
+    .ess-urls{
+        display: block;
+        width: 100%;
+        margin: 5% 0;
+      }
+      .ess-urls div,.last-div div{
+        padding: 5% 0;
+      }
+      .last-div {
+        width: 100%;
+        display: block;
+    }.last-div .terms{
+        width: 100%;
+    }
+    .last-div .terms ul{
+        display:block;
+        list-style: none;
+    }
+    .last-div .terms ul li{
+       
+        padding: 2% 0;
+    }
+  }

@@ -9,3 +9,10 @@
 .card-feature p{
     color:green;
 }
+
+@media only screen and (max-width: 600px) {
+    .card-item{
+        width: 100%;
+        padding: 25px 0;
+    }
+  }

@@ -1,0 +1,51 @@
+footer{
+    grid-area: footer;
+    padding: 20px 80px ;
+    background-color: black;
+    color:white;
+}
+.footer{
+    display: flex;
+    justify-content: space-between; 
+    margin-top:3%;
+}
+
+.logo-div{
+    width:50%;
+}
+.ess-urls{
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.ess-urls ul{
+   
+    list-style: none;
+    margin-right: 0%;
+}
+
+.ess-urls ul li{
+    margin: 5% 0;
+}
+
+.last-div{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-line{
+    margin:2% 0;
+}
+.last-div ul{
+    display: flex;
+    list-style: none;
+}
+.last-div ul i{
+    margin-right: 5px;
+}
+.last-div .terms{
+    width: 40%;
+}
+.last-div ul li{
+    margin-right: 2%;
+}

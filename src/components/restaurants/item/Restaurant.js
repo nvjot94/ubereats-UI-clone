@@ -11,23 +11,21 @@ const Restaurant = ({data}) => {
             <div className="features">
                 <div>
                 <h3>{name}</h3>
-                <ul>
+               {features && <ul>
               {features.map((item)=><li key={`${item}-Math.random().toFixed(2)*100`}>{item}</li>)}
-                 </ul>
+                 </ul>}
                 </div>
            
-            <div className="rating">
+            {rating &&<div className="rating">
               {rating}    
-            </div>
+            </div>}
             </div>
             <hr></hr>
-            <div>
+           { varities && <div>
             <ul>
              {varities.map(item=><li key={`${item}-Math.random().toFixed(2)*100`}>{item}</li>)}
             </ul>
-            </div>
-            
-            
+            </div>}
         </div>
     )
 };

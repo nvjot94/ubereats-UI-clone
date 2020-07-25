@@ -1,0 +1,11 @@
+.card-item{
+    width: 30%;
+    padding: 25px 0;
+}
+
+.card-feature h2{
+    margin:10px 0;
+}
+.card-feature p{
+    color:green;
+}

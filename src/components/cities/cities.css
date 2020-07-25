@@ -1,0 +1,21 @@
+.city-list{
+    grid-area:city; 
+    margin-bottom: 5%;
+}
+
+.city-list h2{
+    margin-bottom:2% ;
+}
+.cities-ul ul{
+    float: left;
+    margin-right: 20% ;
+    list-style: none;
+}
+.cities-ul ul:last-of-type{
+    float: left;
+    margin-right: 0% ;
+    list-style: none;
+}
+.cities-ul ul li{
+    margin: 20% 0;
+}

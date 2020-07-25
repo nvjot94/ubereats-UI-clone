@@ -1,0 +1,15 @@
+.business{
+    grid-area:business;
+    margin: 5% 0;
+}
+.business-features{
+    grid-area:business;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.business-features hr{
+    margin: 10px 0;
+}
+
